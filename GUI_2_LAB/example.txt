@@ -1,0 +1,5 @@
+﻿What is the name of the artist who painted Mona Lisa?:Leonardo Da Vinv:Bob Ross:Ash Ketchum:Sarah
+When was Maze War released?:1974:1969:2000:1999
+Question3:option1:option2:option3:option4
+Question4:option1:option2:option3:option4
+Question5:option1:option2:option3:option4
