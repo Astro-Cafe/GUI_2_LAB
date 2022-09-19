@@ -1,5 +1,8 @@
-﻿What is the name of the artist who painted Mona Lisa?:Leonardo Da Vinv:Bob Ross:Ash Ketchum:Sarah
+﻿What is the name of the artist who painted Mona Lisa?:Leonardo Da Vinci:Bob Ross:Ash Ketchum:Sarah
 When was Maze War released?:1974:1969:2000:1999
-Question3:option1:option2:option3:option4
-Question4:option1:option2:option3:option4
-Question5:option1:option2:option3:option4
+Which is the first letter of the alphabet?:A:F:X:Omega
+Dog says woof, cat says...?:Meow:Moo:Also woof:*Aggressive noises*
+2+2?:4:5:3:7
+What nationality is Barack Obama?:American:Hungarian, because barack:French:Japanese
+Aranybulla!:1222:1996:2025:1848
+Question:Right answer:Wrong asnwer:Also wrong:Problematic
