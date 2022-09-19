@@ -31,13 +31,11 @@ namespace GUI_2_LAB
 			List<Quiz> quizList = File.ReadAllLines("example.txt")
 				.Select(x => new Quiz(x.Split(":")[0], x.Split(":")[1], new string[] { x.Split(":")[1], x.Split(":")[2], x.Split(":")[3], x.Split(":")[4] })).ToList();
 			
-
-			int i = 0;
 			quizList.ForEach(quiz =>
 			{
 				Label l = new Label();
 				l.Tag = quiz;
-				l.Content = i++;
+				l.Content = "☀";
 				l.HorizontalContentAlignment = HorizontalAlignment.Center;
 				l.VerticalContentAlignment = VerticalAlignment.Center;
 				l.Foreground = Brushes.Gainsboro;
@@ -89,9 +87,19 @@ namespace GUI_2_LAB
 			}
 			
 		}
-	}
 
-	public class Quiz
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+			MessageBoxResult msg = MessageBox.Show("Are you sure you want to exit?", "WARNING!", MessageBoxButton.OKCancel, MessageBoxImage.Asterisk);
+
+			if (msg == MessageBoxResult.Cancel)
+			{
+				e.Cancel = true;
+			}
+		}
+    }
+
+    public class Quiz
 	{
 		private string question;
 		private string answer;

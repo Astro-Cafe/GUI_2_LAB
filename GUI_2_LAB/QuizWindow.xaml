@@ -20,13 +20,12 @@
             <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
 
-        <TextBlock x:Name="tb_question" Grid.Row="0" Grid.ColumnSpan="2" Text=" Lorem ipsum" FontSize="30"  Margin="20" TextAlignment="Center" Foreground="Gainsboro" Background="#36393e" TextWrapping="Wrap" VerticalAlignment="Center" />
+        <TextBlock x:Name="tb_question" Grid.Row="0" Grid.ColumnSpan="2" Text="" FontSize="30"  Margin="20" TextAlignment="Center" Foreground="Gainsboro" Background="#36393e" TextWrapping="Wrap" VerticalAlignment="Center" />
 
         <Button  x:Name="bt_submit" Content ="Submit " HorizontalContentAlignment="Center" Grid.Row="3" Grid.ColumnSpan="2" FontSize="36" Margin="300,5,300,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="bt_submit_Click"
                  Background="#36393e" Foreground="Gainsboro" MouseEnter="bt_submit_MouseEnter" MouseLeave="bt_submit_MouseLeave">
             <Button.Style>
                 <Style TargetType="{x:Type Button}">
-                   
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="{x:Type Button}">
@@ -59,12 +58,7 @@
             <Label  x:Name="l_B" Grid.Row="0" Grid.Column="1" Content="B : " Background="#36393e" Margin="5"  BorderThickness="2" BorderBrush="#1e2124" Foreground="Gainsboro"  FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="l_MouseEnter" MouseLeave="l_MouseLeave" MouseDown="l_MouseClick"></Label>
             <Label  x:Name="l_C" Grid.Row="1" Grid.Column="0" Content="C : " Background="#36393e" Margin="5"  BorderThickness="2" BorderBrush="#1e2124"  Foreground="Gainsboro" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="l_MouseEnter" MouseLeave="l_MouseLeave" MouseDown="l_MouseClick"></Label>
             <Label  x:Name="l_D" Grid.Row="1" Grid.Column="1" Content="D : " Background="#36393e" Margin="5"  BorderThickness="2" BorderBrush="#1e2124" Foreground="Gainsboro" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" MouseEnter="l_MouseEnter" MouseLeave="l_MouseLeave"  MouseDown="l_MouseClick"></Label>
-
-
-
         </Grid>
         <TextBlock x:Name="tb_timer" Grid.Column="1" Grid.Row="2" Width="50" Height="50" Margin="300,10,10,10" Background="#36393e" Text="--" FontSize="34" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="Gainsboro" />
-
-
     </Grid>
 </Window>

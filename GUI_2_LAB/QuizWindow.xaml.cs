@@ -117,7 +117,7 @@ namespace GUI_2_LAB
 
 		private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
 		{
-			MessageBoxResult closing = MessageBox.Show("Biztos vagy benne? Nincs visszalépés.", "Kérdés", MessageBoxButton.YesNo);
+			MessageBoxResult closing = MessageBox.Show("Are you sure? There is no turning back", "Question", MessageBoxButton.YesNo);
 
 			if (closing == MessageBoxResult.No)
 			{
